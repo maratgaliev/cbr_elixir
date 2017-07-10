@@ -33,10 +33,9 @@ defmodule CbrElixir.Mixfile do
 
   defp deps do
     [
-      {:soap, github: "bet365/soap"},
-      {:sweet_xml, github: "kbrw/sweet_xml"},
+      {:sweet_xml, "~> 0.6.5"},
       {:httpoison, "~> 0.12"},
-      {:codepagex, github: "tallakt/codepagex"},
+      {:codepagex, "~> 0.1.4"},
       {:timex, "~> 3.1"}
     ]
   end
