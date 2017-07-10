@@ -52,6 +52,11 @@ iex(1)> CbrElixir.daily("03.08.2014")
      nominal: 1, numcode: "826", value: "93,9403"},
 ```
 
+
+## TODO
+
+    - Add valutes catalog implementation
+
 ## License
 
     Copyright © 2017 Marat Galiev <kazanlug@gmail.com>
