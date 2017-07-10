@@ -1,0 +1,13 @@
+/_build
+doc
+docs
+.env
+/db
+/deps
+/*.ez
+erl_crash.dump
+/config/prod.secret.exs
+.idea
+*.iml
+.DS_Store
+coverage.xml
