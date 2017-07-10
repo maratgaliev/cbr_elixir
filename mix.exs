@@ -36,7 +36,8 @@ defmodule CbrElixir.Mixfile do
       {:sweet_xml, "~> 0.6.5"},
       {:httpoison, "~> 0.12"},
       {:codepagex, "~> 0.1.4"},
-      {:timex, "~> 3.1"}
+      {:timex, "~> 3.1"},
+      {:ex_doc, "~> 0.13.1", only: [:dev, :docs]}
     ]
   end
 end
