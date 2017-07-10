@@ -49,8 +49,13 @@ iex(1)> CbrElixir.daily("03.08.2014")
      numcode: "944", value: "57,4120"},
     %CbrElixir.Models.Valute{charcode: "GBP", id: "R01035",
      name: "Фунт стерлингов Соединенного королевства",
-     nominal: 1, numcode: "826", value: "93,9403"},
+     nominal: 1, numcode: "826", value: "93,9403"}
 ```
+
+
+## TODO
+
+    - Add valutes catalog implementation
 
 ## License
 
