@@ -10,7 +10,7 @@ The package can be installed from hex:
 
 ```elixir
 def deps do
-  [{:cbr_elixir, "~> 0.1.1"}]
+  [{:cbr_elixir, "~> 0.1.2"}]
 end
 ```
 
@@ -52,10 +52,24 @@ iex(1)> CbrElixir.daily("03.08.2014")
      nominal: 1, numcode: "826", value: "93,9403"}
 ```
 
+5. Get currencies catalog :
+
+```elixir
+iex(1)> CbrElixir.valute_catalog
+  %CbrElixir.Models.Valutes{items: [%CbrElixir.Models.Item{engname: "Moldova Lei",
+     id: "R01500", name: "Молдавский лей", nominal: 10,
+     parentcode: "R01500"},
+    %CbrElixir.Models.Item{engname: "US Dollar", id: "R01235",
+     name: "Доллар США", nominal: 1, parentcode: "R01235"},
+    %CbrElixir.Models.Item{engname: "S.African Rand", id: "R01810",
+     name: "Южноафриканский рэнд", nominal: 10,
+     parentcode: "R01810"}
+```
+
 
 ## TODO
 
-    - Add valutes catalog implementation
+    - Get info for specific currency
 
 ## License
 
