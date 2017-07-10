@@ -1,6 +1,6 @@
 # CBR Elixir
 
-**http://fucking-great-advice.ru Central Bank of the Russian Federation API Elixir wrapper**
+**http://cbr.ru Central Bank of the Russian Federation API Elixir wrapper**
 
 ## Installation
 
