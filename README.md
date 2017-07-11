@@ -10,7 +10,7 @@ The package can be installed from hex:
 
 ```elixir
 def deps do
-  [{:cbr_elixir, "~> 0.1.2"}]
+  [{:cbr_elixir, "~> 0.1.3"}]
 end
 ```
 
