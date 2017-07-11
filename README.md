@@ -66,10 +66,18 @@ iex(1)> CbrElixir.valute_catalog
      parentcode: "R01810"}
 ```
 
+5. Get specific currency rate by charcode:
+
+```elixir
+iex(4)> CbrElixir.daily_by_code(:EUR, '31-12-2001')
+  %CbrElixir.Models.Valute{charcode: "EUR", id: "R01239", name: "Евро",
+   nominal: 1, numcode: "978", value: "26,4900"}
+```
+
 
 ## TODO
 
-    - Get info for specific currency
+    - Add more API wrappers
 
 ## License
 
